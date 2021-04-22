@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    max-height: 100%;
+    overflow: hidden;
+}
+#container {
+    display: flex;
+
+}
+#left {
+    position: relative;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-size: 50vw;
+    background-repeat: no-repeat;
+}
+#logo {
+    position: relative;
+    bottom:200px;
+}
+#head {
+    position: relative;
+    font-size: 100px;
+    width: 20vw;
+    bottom: 100px;
+}
+#left-text {
+    width:30vw;
+    height: 50vh;
+    margin: 25vh 10vw; 
+}
+#hello {
+    position: relative;
+    bottom: 50px;
+    font-size: 20px;
+    width: 27vw;
+    color: hsl(0, 36%, 70%);
+}
+#email {
+    border-radius: 20px;
+    width: 30vw;
+    height: 50px;
+}
+#email-button {
+    position: relative;
+    bottom:50px;
+    left: 450px;
+    border: 0;
+    outline: 0;
+    width: 5vw;
+    height: 50px;
+    border-radius: 20px;
+    background-color: hsl(0, 93%, 68%);
+}
+#right {
+    display: flex;
+    position: relative;
+    background-image: url('./images/hero-desktop.jpg');
+    background-size: 50vw 100vh;
+    background-repeat: no-repeat;
+    width:50vw;
+}
+
+.attribution {
+    display: none;
+}
