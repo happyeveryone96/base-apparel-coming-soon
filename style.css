@@ -63,6 +63,13 @@ body {
     width:50vw;
 }
 
+#alert-email {
+    position: relative;
+    bottom: 40px;
+    left: 450px;
+    color: red;
+}
+
 .attribution {
     display: none;
 }
