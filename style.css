@@ -70,6 +70,13 @@ body {
     color: red;
 }
 
+#error {
+    display: none;
+    position: relative;
+    left: 400px;
+    bottom: 85px;
+}
+
 .attribution {
     display: none;
 }
