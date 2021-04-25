@@ -66,7 +66,7 @@ body {
 #alert-email {
     position: relative;
     bottom: 40px;
-    left: 450px;
+    text-align: right;
     color: red;
 }
 
