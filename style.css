@@ -39,18 +39,19 @@ body {
     color: hsl(0, 36%, 70%);
 }
 #email {
+    border: 3px solid lightgray;
     border-radius: 20px;
     width: 30vw;
     height: 50px;
 }
 #email-button {
     position: relative;
-    bottom:50px;
-    left: 450px;
+    bottom:55px;
+    left: 25.3vw;
     border: 0;
     outline: 0;
     width: 5vw;
-    height: 50px;
+    height: 55px;
     border-radius: 20px;
     background-color: hsl(0, 93%, 68%);
 }
@@ -73,10 +74,92 @@ body {
 #error {
     display: none;
     position: relative;
-    left: 400px;
-    bottom: 85px;
+    left: 22vw;
+    bottom: 93px;
 }
 
 .attribution {
     display: none;
+}
+
+@media (max-width: 700px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        max-height: 100%;
+        max-width: 100%;
+        overflow-y: visible;
+        overflow-x: hidden;
+    }
+    #container {
+        display: block;        
+    }
+    #logo {
+        position: relative;
+        bottom:0px;
+    }
+    #left {
+        position: relative;
+        bottom: 200px
+    }
+    #head {
+        width: 80vw;
+        text-align: center;
+        bottom: -50px;
+    }
+    
+    #mobile-image {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 100vw;
+    }
+    #left-text{
+        position: relative;
+        margin: 0;
+        top: 200px;
+    }
+
+    #logo {
+        margin: 30px;
+    }
+    #left {
+        background-image: none;
+    }
+    #hello {
+        display: block;
+        width: 90vw;
+        margin: 10px;
+        padding-top: 100px;
+    }
+    #email {
+        border: 3px solid lightgray;
+        border-radius: 20px;
+        width: 80vw;
+        height: 50px;
+        margin-left: 20px;
+    }
+    #email-button {
+        position: relative;
+        bottom:55px;
+        left: 70vw;
+        border: 0;
+        outline: 0;
+        width: 15vw;
+        height: 55px;
+        border-radius: 20px;
+        background-color: hsl(0, 93%, 68%);
+    }
+    #error {
+        display: none;
+        position: relative;
+        left: 60vw;
+        bottom: 93px;
+    }
+    #alert-email {
+        left:50vw;
+        bottom: 70px;
+    }
 }
