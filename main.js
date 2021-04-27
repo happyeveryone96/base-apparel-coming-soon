@@ -13,6 +13,7 @@ emailBtn.addEventListener('click', function (event) {
     } 
     else if (emailVal.match(regExp) != null) {
         document.getElementById('alert-email').innerHTML = "입력 완료";
+        document.getElementById('alert-email').style.bottom = "40px";
         error.style.display = "none";
     } else {
         document.getElementById('alert-email').innerHTML = "이메일 형식에 맞지 않습니다.";
